@@ -10,7 +10,7 @@
 
 body {
 	height: 100%;
-	min-height: 35rem;
+	min-height: 30rem;
 	position: relative;
 	font-family: 'Arial';
 	font-weight: 300
@@ -99,9 +99,9 @@ video {
 	.masthead {
 		height: 100%;
 		min-height: 0;
-		width: 40.5%;
+		width: 40.5vw;
         padding-bottom: 0;
-        min-width:585px;
+        min-width:555px;
 	}
 	.masthead .masthead-bg {
 		min-height: 0;
@@ -117,7 +117,13 @@ video {
 	}
 	.masthead .masthead-content p {
 		font-size: 1.5rem
-	}
+    }
+    
+    #botao{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        font-size: 2vh;
+    }
 }
 
 .social-icons {
@@ -180,36 +186,26 @@ video {
 	}
 	.social-icons ul>li>a:hover {
 		background-color: #002e66
-	}
+    }
+
+    .imagem-logo{
+        min-width: 50%;
+    }
 }
 
-.btn-secondary {
-	background-color: #cd9557;
-	border-color: #cd9557
-}
 
-.btn-secondary:active,
-.btn-secondary:focus,
-.btn-secondary:hover {
-	background-color: #ba7c37!important;
-	border-color: #ba7c37!important
-}
 
 .input {
 	font-weight: 300!important
 }
 
-@media (max-height: 790px){
+@media (max-height: 850px){
     .masthead .masthead-content h1{
         font-size: 4.5vh;
     }
 
     .masthead .masthead-content p{
         font-size: 2.5vh;
-    }
-
-    #imagem-logo{
-        display: none;
     }
 }
 
