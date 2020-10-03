@@ -27,11 +27,12 @@
 <body>
 
   <div class="overlay"></div>
-
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
-    <source src="mp4/filme-zoom.MP4" type="video/mp4">
-    <img src="img/bg_fail.png" title="Your browser does not support the <video> tag" />
-  </video>
+  <div id = "video-container">
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+      <source src="mp4/filme-zoom.MP4" type="video/mp4">
+      <img src="img/bg_fail.png" title="Your browser does not support the <video> tag" />
+    </video>
+  </div>
 
   <div class="masthead">
     <div class="masthead-bg"></div>
@@ -39,31 +40,32 @@
 
       <div class="row h-15 justify-content-center">
         <div class="col-9 mt-4">
-          <img src="img/logo_complete.png" class="img-fluid" alt ="logo completo">
+          <img src="img/logo_complete_sem_fundo.png" class="img-fluid" alt ="logo completo">
         </div>
       </div>
 
       <div class="row h-20 justify-content-center">
         <div class="col-11 mt-4 py-0">
-          <div class="masthead-content text-white">
-            <h1 class = "mb-5">Site em actualização</h1>
-            <hr class = "my-4" style = "border-top: 2px solid red;">
+          <div class="masthead-content">
+            <hr class = "my-3" style = "border-top: 2px solid red;">
+            <h1 class = "mb-0">Site em actualização</h1>
+            <hr class = "my-3" style = "border-top: 2px solid red;">
             <p class = "mb-0"><b> Neste momento estamos a trabalhar para renovar o nosso site. Caso pretenda ser contactado entretanto, por favor submeta o seu endereço de email ou número de telemóvel.</b></p>
           </div>
         </div>
       </div>
 
       <div class="row h-5 justify-content-center">
-        <div class="col-4 py-4">
+        <div class="col-4 py-2">
           <div class="input-group-append">
-            <button class="btn btn-danger py-3" data-toggle = "modal" data-target = "#modalo" type="button" id="submit-button">Introduzir dados</button>
+            <button class="btn btn-danger my-1 py-1" data-toggle = "modal" data-target = "#modalo" type="button" id="submit-button">Introduzir dados</button>
           </div>
         </div>
       </div>
 
       <div class="row h-25 justify-content-center">
         <div class="col-11 mb-4">
-          <div class="masthead-content text-white">
+          <div class="masthead-content">
             <p class="mb-5">
               <b>Se preferir, poderá contactar-nos directamente:<br><br>
               967 352 729<br>
