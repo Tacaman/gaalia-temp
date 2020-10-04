@@ -95,26 +95,38 @@ video {
 	padding: 1rem
 }
 
+.imagem-logo img{
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 @media (min-width:768px) {
 	.masthead {
 		height: 100%;
 		min-height: 0;
-		width: 40.5vw;
+		width: 44.5vw;
         padding-bottom: 0;
         min-width:500px;
-	}
+    }
+    
 	.masthead .masthead-bg {
 		min-height: 0;
 		transform: skewX(-8deg);
 		transform-origin: top right
-	}
+    }
+    
 	.masthead .masthead-content {
 		padding-left: 3rem;
 		padding-right: 4rem
-	}
+    }
+    
 	.masthead .masthead-content h1 {
 		font-size: 3.5rem
-	}
+    }
+    
 	.masthead .masthead-content p {
 		font-size: 1.5rem
     }
@@ -163,29 +175,40 @@ video {
 		right: 2.5rem;
 		bottom: 2rem;
         width: auto;
-	}
+    }
+    
 	.social-icons ul {
 		margin-top: 0;
 		width: auto
-	}
-	.social-icons ul>li {
+    }
+    
+    .soci
+    al-icons ul>li {
 		display: block;
 		margin-left: 0;
 		margin-right: 0;
 		margin-bottom: 2rem
-	}
+    }
+    
 	.social-icons ul>li:last-child {
 		margin-bottom: 0
-	}
+    }
+    
 	.social-icons ul>li>a {
 		transition: all .2s ease-in-out;
 		font-size: 2rem;
 		line-height: 4rem;
 		height: 4rem;
 		width: 4rem
-	}
+    }
+    
 	.social-icons ul>li>a:hover {
 		background-color: #002e66
+    }
+
+    .imagem-logo{
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -202,6 +225,13 @@ video {
         font-size: 2.5vh;
     }
 
+    .imagem-logo{
+        height: 35vh;
+        width: auto;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
     
 }
 
