@@ -74,11 +74,11 @@ video {
 }
 
 .masthead .masthead-content p {
-	font-size: 1.5rem
+	font-size: 1.5em;
 }
 
 .masthead .masthead-content p strong {
-	font-weight: 800
+	font-weight: bolder!important;
 }
 
 .masthead .masthead-content .input-group-newsletter input {
