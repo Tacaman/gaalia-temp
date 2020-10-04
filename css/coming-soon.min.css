@@ -95,13 +95,15 @@ video {
 	padding: 1rem
 }
 
+/*
 .imagem-logo img{
     max-height: 100%;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
     display: block;
-}
+} */
 
 @media (min-width:768px) {
 	.masthead {
@@ -109,7 +111,7 @@ video {
 		min-height: 0;
 		width: 44.5vw;
         padding-bottom: 0;
-        min-width:500px;
+        min-width:550px;
     }
     
 	.masthead .masthead-bg {
@@ -205,11 +207,6 @@ video {
 	.social-icons ul>li>a:hover {
 		background-color: #002e66
     }
-
-    .imagem-logo{
-        width: 100%;
-        height: auto;
-    }
 }
 
 .input {
@@ -218,20 +215,21 @@ video {
 
 @media (max-height: 850px){
     .masthead .masthead-content h1{
-        font-size: 4.5vh;
+        font-size: 4vh;
     }
 
     .masthead .masthead-content p{
-        font-size: 2.5vh;
+        font-size: 2.2vh;
     }
 
+    /*
     .imagem-logo{
         height: 35vh;
         width: auto;
         max-height: 100%;
         max-width: 100%;
     }
-    
+    */
     
 }
 
@@ -242,3 +240,12 @@ video {
     height: 100vh;
 }
 
+@media (min-height: 1000px) and (min-width: 768px){
+    .masthead .masthead-content h1{
+        font-size: 2vw;
+    }
+
+    .masthead .masthead-content p{
+        font-size: 1.5vw;
+    }
+}
